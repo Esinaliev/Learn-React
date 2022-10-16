@@ -14,7 +14,7 @@ function App() {
       <Links/>
       <Routes>
         <Route exact path='/' element={<Home/>} />
-        <Route exact path='/Components' element={<WWC/>} />
+        <Route exact path='/Components*' element={<WWC/>} />
         <Route exact path='/Movies' element={<Movies/>} />
         <Route exact path='/Movies/:id' element={<MovieInfo/>} />
         <Route exact path='/Movies/search/:query' element={<MovieFilter/>} />
